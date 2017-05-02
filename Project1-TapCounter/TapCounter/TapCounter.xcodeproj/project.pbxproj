@@ -12,11 +12,11 @@
 		7CADCF305888183999F5C7E2 /* Pods_TapCounterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65840FD2935C661647AE1A1C /* Pods_TapCounterTests.framework */; };
 		B5FC7EE51EB7653A003EA074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC7EE41EB7653A003EA074 /* AppDelegate.swift */; };
 		B5FC7EE71EB7653A003EA074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC7EE61EB7653A003EA074 /* ViewController.swift */; };
-		B5FC7EEA1EB7653A003EA074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FC7EE81EB7653A003EA074 /* Main.storyboard */; };
 		B5FC7EEC1EB7653A003EA074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FC7EEB1EB7653A003EA074 /* Assets.xcassets */; };
 		B5FC7EEF1EB7653A003EA074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FC7EED1EB7653A003EA074 /* LaunchScreen.storyboard */; };
 		B5FC7EFA1EB7653B003EA074 /* TapCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC7EF91EB7653B003EA074 /* TapCounterTests.swift */; };
 		B5FC7F051EB7653B003EA074 /* TapCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC7F041EB7653B003EA074 /* TapCounterUITests.swift */; };
+		B5FC7F141EB8CC4F003EA074 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FC7F131EB8CC4F003EA074 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,6 @@
 		B5FC7EE11EB7653A003EA074 /* TapCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FC7EE41EB7653A003EA074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FC7EE61EB7653A003EA074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5FC7EE91EB7653A003EA074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5FC7EEB1EB7653A003EA074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FC7EEE1EB7653A003EA074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FC7EF01EB7653A003EA074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		B5FC7F001EB7653B003EA074 /* TapCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FC7F041EB7653B003EA074 /* TapCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCounterUITests.swift; sourceTree = "<group>"; };
 		B5FC7F061EB7653B003EA074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FC7F131EB8CC4F003EA074 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		D5B0A18C1193052E1E7E6890 /* Pods-TapCounterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapCounterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapCounterTests/Pods-TapCounterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9DA24DC84E6C286D281EDBF /* Pods-TapCounterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapCounterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapCounterTests/Pods-TapCounterTests.release.xcconfig"; sourceTree = "<group>"; };
 		FBC31C3F2A977553ADED54D9 /* Pods_TapCounterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapCounterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,10 +129,10 @@
 			children = (
 				B5FC7EE41EB7653A003EA074 /* AppDelegate.swift */,
 				B5FC7EE61EB7653A003EA074 /* ViewController.swift */,
-				B5FC7EE81EB7653A003EA074 /* Main.storyboard */,
 				B5FC7EEB1EB7653A003EA074 /* Assets.xcassets */,
 				B5FC7EED1EB7653A003EA074 /* LaunchScreen.storyboard */,
 				B5FC7EF01EB7653A003EA074 /* Info.plist */,
+				B5FC7F131EB8CC4F003EA074 /* View.xib */,
 			);
 			path = TapCounter;
 			sourceTree = "<group>";
@@ -173,8 +173,8 @@
 			buildConfigurationList = B5FC7F091EB7653B003EA074 /* Build configuration list for PBXNativeTarget "TapCounter" */;
 			buildPhases = (
 				94AA22F22887400E623F4D26 /* [CP] Check Pods Manifest.lock */,
-				B5FC7F121EB77362003EA074 /* SwiftLint */,
 				B5FC7EDD1EB7653A003EA074 /* Sources */,
+				B5FC7F121EB77362003EA074 /* SwiftLint */,
 				B5FC7EDE1EB7653A003EA074 /* Frameworks */,
 				B5FC7EDF1EB7653A003EA074 /* Resources */,
 				F53898AE42CF22F875C0B14D /* [CP] Embed Pods Frameworks */,
@@ -282,9 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC7F141EB8CC4F003EA074 /* View.xib in Resources */,
 				B5FC7EEF1EB7653A003EA074 /* LaunchScreen.storyboard in Resources */,
 				B5FC7EEC1EB7653A003EA074 /* Assets.xcassets in Resources */,
-				B5FC7EEA1EB7653A003EA074 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,14 +498,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5FC7EE81EB7653A003EA074 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5FC7EE91EB7653A003EA074 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5FC7EED1EB7653A003EA074 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
