@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TapViewController.swift
 //  TapCounter
 //
 //  Created by Allen Hsu on 2017/5/3.
@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ViewController: UIViewController {
+class TapViewController: UIViewController {
 
 	@IBOutlet weak var counterNumber: UILabel!
 	@IBOutlet weak var tapButton: UIButton!

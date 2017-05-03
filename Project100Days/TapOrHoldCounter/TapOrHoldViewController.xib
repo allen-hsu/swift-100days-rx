@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TapOrHoldViewController" customModule="TapOrHoldCounter" customModuleProvider="target">
+            <connections>
+                <outlet property="countNumber" destination="v3M-0D-Zak" id="bO1-lX-pW1"/>
+                <outlet property="tabOrHoverButton" destination="Sgu-L3-hB1" id="RRq-et-hjd"/>
+                <outlet property="view" destination="iN0-l3-epB" id="gae-fp-d9m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3M-0D-Zak">
+                    <rect key="frame" x="169" y="193" width="37" height="72"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgu-L3-hB1">
+                    <rect key="frame" x="146" y="430" width="83" height="30"/>
+                    <state key="normal" title="TapOrHover"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="v3M-0D-Zak" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3zB-nd-PQ5"/>
+                <constraint firstItem="v3M-0D-Zak" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="193" id="6U8-2R-hYC"/>
+                <constraint firstItem="Sgu-L3-hB1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EGo-zE-mhE"/>
+                <constraint firstItem="Sgu-L3-hB1" firstAttribute="top" secondItem="v3M-0D-Zak" secondAttribute="bottom" constant="165" id="uy1-ZR-6SR"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
