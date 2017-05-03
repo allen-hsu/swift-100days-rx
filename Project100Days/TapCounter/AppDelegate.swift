@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TapCounter
 //
-//  Created by Allen Hsu on 2017/5/1.
+//  Created by Allen Hsu on 2017/5/3.
 //  Copyright © 2017年 Allen Hsu. All rights reserved.
 //
 
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
-
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.

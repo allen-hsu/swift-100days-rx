@@ -2,7 +2,7 @@
 //  TapCounterTests.swift
 //  TapCounterTests
 //
-//  Created by Allen Hsu on 2017/5/1.
+//  Created by Allen Hsu on 2017/5/3.
 //  Copyright © 2017年 Allen Hsu. All rights reserved.
 //
 

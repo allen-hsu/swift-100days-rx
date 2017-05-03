@@ -11,9 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="TapCounter" customModuleProvider="target">
             <connections>
-                <outlet property="counterNumber" destination="aZh-bX-5cw" id="iJB-Uu-ou8"/>
-                <outlet property="tapButton" destination="cIg-zE-zyd" id="x9n-6x-RtX"/>
-                <outlet property="view" destination="iN0-l3-epB" id="U9h-9g-XLY"/>
+                <outlet property="counterNumber" destination="aZh-bX-5cw" id="Bnn-OR-bQF"/>
+                <outlet property="tapButton" destination="cIg-zE-zyd" id="fjs-BD-edx"/>
+                <outlet property="view" destination="iN0-l3-epB" id="3r6-K9-0rt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TapCounter.xcodeproj">
+      location = "self:Project100Days.xcodeproj">
    </FileRef>
 </Workspace>

@@ -2,25 +2,25 @@
 //  ViewController.swift
 //  TapCounter
 //
-//  Created by Allen Hsu on 2017/5/1.
+//  Created by Allen Hsu on 2017/5/3.
 //  Copyright © 2017年 Allen Hsu. All rights reserved.
 //
 
 import UIKit
 import RxSwift
 import RxCocoa
+
 class ViewController: UIViewController {
 
-	
 	@IBOutlet weak var counterNumber: UILabel!
 	@IBOutlet weak var tapButton: UIButton!
 	
 	private let disposeBag = DisposeBag()
 	private var count = 0
-	
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
+		// Do any additional setup after loading the view, typically from a nib.
 		self.title = "Counter"
 		self.navigationController?.navigationBar.barTintColor = UIColor.white
 		self.navigationController?.navigationBar.clipsToBounds = true
@@ -44,7 +44,5 @@ class ViewController: UIViewController {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
-
+	
 }
-
